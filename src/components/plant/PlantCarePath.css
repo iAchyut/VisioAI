@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e8f5e9;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    color: #2e7d32;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.path {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.step .icon {
+    width: 50px;
+    height: 50px;
+}
+
+.step .text {
+    flex: 1;
+    font-size: 18px;
+    color: #2e7d32;
+}
+
+.step.even {
+    background-color: #f1f8e9;
+    padding: 10px;
+    border-radius: 10px;
+}
